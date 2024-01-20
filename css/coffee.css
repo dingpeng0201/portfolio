@@ -1,0 +1,75 @@
+*,*::before, *after{
+    box-sizing: inherit;
+}
+
+#coffee_link a{
+    opacity: 50%;
+    border-bottom: white 1px dashed;
+    border-top: white 1px dashed;
+}
+
+.coffee-subtitle{
+    height: 60px;
+    color: white;
+}
+
+.coffee-subtitle h1{
+    font-size: 15pt;
+}
+
+.coffee_main        {background-image: url(../img/coffee_main.png);}
+
+.bazil-coffee-bg    {background-image: url(../img/coffee_beans.png);}
+.coffee-choose-bg   {background-image: url(../img/coffee_choose.png);}
+.coffee-skill-bg    {background-image: url(../img/coffee_skill.png);}
+
+.mask{
+    -webkit-mask-image: linear-gradient(black 50%, transparent);
+    mask-image: linear-gradient(black 50%, transparent);
+    margin-bottom: -100px;
+}
+
+.maskH{
+    -webkit-mask-image: linear-gradient(to right,black 50%, transparent);
+    mask-image: linear-gradient(to right, black 50%, transparent);
+    margin-right: -0px;
+}
+
+.maskHtoLeft{
+    -webkit-mask-image: linear-gradient(to left,black 60%, transparent);
+    mask-image: linear-gradient(to left, black 50%, transparent);
+}
+
+._3rd_section{
+    min-height: 320px;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.title_coffee{
+    color:#8F6500;
+    font-size: 32pt;
+}
+
+.subtitle_coffee{
+    color:#8F6500;
+    font-size: 16pt;
+}
+
+.coffee_description{
+    font-size: 12pt;
+    color: black;
+    font-weight: normal;
+}
+
+.description{
+    font-size: 10pt;
+}
+
+.pic_enjoy_coffee{
+    height: 180px;
+    background-image: url(../img/coffee_end.png);
+    background-position: center;
+}

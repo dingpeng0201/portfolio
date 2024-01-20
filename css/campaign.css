@@ -1,0 +1,47 @@
+*,*::before, *after{
+    box-sizing: inherit;
+}
+
+.title_campaign{
+    margin-top: 5px;
+    font-size: 24pt;
+    color: #8F6500;
+}
+
+.item_description{
+    font-size: 12pt;
+}
+
+.item{
+    padding: 30px;
+}
+
+.item_pic{
+    width: 100%;
+    height: 0;
+    padding-top: 66.66%; /*set photo size as 3:2*/
+    margin: auto;
+}
+
+.campaign_main {background-color:red;}
+
+.campaign_picture {
+    background-size: cover;
+    background-position: center;
+}
+
+.July_Drinks{background-image: url(../img/campaign_post_1.jpg);}
+.July_Dessert{background-image: url(../img/campaign_post_2.jpg);}
+.Daily_Limit{background-image: url(../img/campaign_post_3.jpg);}
+.Lunch_Limit{background-image: url(../img/campaign_post_4.jpg);}
+.Coming_Soon{background-image: url(../img/coming-soon.jpg);}
+
+/* Kai ------------------------------- */
+.grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 60px 20px;
+}
+
+

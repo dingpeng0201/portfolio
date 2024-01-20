@@ -1,0 +1,47 @@
+*,*::before, *after{
+    box-sizing: inherit;
+}
+
+#food_link a{
+    opacity: 50%;
+    border-bottom: white 1px dashed;
+    border-top: white 1px dashed;
+}
+
+.food_main    {background-image: url(../img/food_main.png);}
+
+.food_pic{
+    width: 100%;
+    margin: 20px auto;
+}
+
+.title_food{
+    font-size: 20pt;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.subtitle_food{
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.bounceInRight .subtitle_food{
+    text-align: left;
+}
+
+.pic_meal_end{
+    height: 180px;
+    background-image: url(../img/meal_end.png);
+    background-position: center;
+}
+
+@media (min-width: 768px){
+    .meal-desc h1{
+        font-size: 32pt;
+    }
+
+    .food_pic{
+        margin: auto;
+    }
+}
